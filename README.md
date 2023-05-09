@@ -9,38 +9,44 @@
                                                           
 ````
 
-# BST-SIO-G7-2023-AutoEcole-Software
+# Application Software d'Auto-École
 
-## 🔧 • Comment je peux installer le Projet ?
+## Préambule
 
-Ce projet a entièrement été créée sous le langage java
+Ce projet a été réalisé lors de ma seconde année de [BTS SIO en option SLAM](https://www.onisep.fr/ressources/univers-formation/Formations/Post-bac/bts-services-informatiques-aux-organisations-option-b-solutions-logicielles-et-applications-metiers) suite 
+à la demande des professeurs. 
 
-Vous pouvez installer le programme directement sur votre ordinateur en effectuant la commande ci-dessous dans [Git Bash](https://git-scm.com/downloads)
+Pour la réalisation de ce projet, nous étions en équipe de 2, [Neleoko](https://github.com/Neleoko) & [moi](https://github.com/BluedyRimuru).
+
+## Installation
+
+Vous devez récupérer le projet en effectuant la commande ci-dessous :
 ```shell
-$ git clone git@github.com:ort-montreuil/BST-SIO-G7-2023-AutoEcole-Software.git
+$ git clone https://github.com/BluedyAishela/Sunaria-BluedyNamic.git # HTTPS mais vous sélectionnez le lien que vous voulez.
 ```
-Une fois le projet installé, vous devrez aller à l'emplacement du dossier et utiliser les commandes suivantes :
+Lorsque vous aurez récupéré le projet, vous devrez ajouter votre [jdk](https://www.oracle.com/fr/java/technologies/downloads/) au projet et importer les [librairies](https://github.com/BluedyAishela/TP-Software-AutoEcole/tree/main/Librairies) situées dans le projet.
+Pour notre cas, nous avons utilisé l'application [IntelliJ](https://www.jetbrains.com/fr-fr/idea/) et le jdk est proposé par défaut.
+
+Ceci étant fait, vous devrez ensuite exécuter cette commande et compléter le code en fonction de votre environnement.
 ```shell
 $ cp .\src\Tools\ConnexionBDDExample.java .\src\Tools\ConnexionBDD.java
 ```
-Pour continuer, vous devrez rentrer les informations de votre base de donnée dans la fonction 
-précédemment crée puis, vous devrez importer la base de donnée située dans
-le dossier "bdd".
 
-Ensuite, vous devrez utiliser les librairies jointent dans le dossier "Librairies"
+## Base de données 
+
+Une fois que vous avez entré vos informations de base de données dans la fonction précédemment copiée,
+vous devrez importer la base de données se situant dans le dossier nommé [bdd](https://github.com/BluedyAishela/TP-Software-AutoEcole/tree/main/bdd).
+
+Nous proposons aussi l'installation via [Docker](https://www.docker.com/).
 
 Création des containers via Docker :
 
 ```shell
 $ docker-compose create
-```
-
-Lancement des containers :
-```shell
 $ docker-compose start
 ```
 
-## 👤 • Utilisateurs
+## Identifiants utilisateurs
 
 Les utilisateurs affiché ci-dessous sont des exemples d'utilisateurs
 
@@ -49,7 +55,7 @@ Les utilisateurs affiché ci-dessous sont des exemples d'utilisateurs
 - Ryu
 - Salameche
 
-### Comptes moniteurs :
+### Compte moniteur :
 
 - Bluedy
 
@@ -58,11 +64,4 @@ Les utilisateurs affiché ci-dessous sont des exemples d'utilisateurs
 - Kagenou
 
 
-Pour tous les utilisateurs, le mot de passe est : "password"
-
-## 🦈 • Technologies used
-
-- Java
-- Balsamiq Studio [Voir](https://balsamiq.cloud/si52r9m/pcdgdsa/r2278)
-- Figma [Website for model](https://www.figma.com/file/PH1giNEeS483zcxELuMkPW/Projet-AutoEcole-Java?t=YqlRgyb4EwX4SULQ-0)
-- Docker [Visiter](https://www.docker.com)
+Pour tous les utilisateurs, le mot de passe est : password.
