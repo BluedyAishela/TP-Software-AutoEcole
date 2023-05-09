@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Vues.Eleve.FrmPlanning">
+  <grid id="27dc6" binding="pnlRoot" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="627" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <toolbar id="b2773" binding="jtbEleve">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="20"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="a95af" class="javax.swing.JButton" binding="btnCompte">
+            <constraints/>
+            <properties>
+              <text value="Mon compte"/>
+            </properties>
+          </component>
+          <component id="2ed49" class="javax.swing.JButton" binding="btnPlanning">
+            <constraints/>
+            <properties>
+              <text value="Planning"/>
+            </properties>
+          </component>
+          <component id="5b034" class="javax.swing.JButton" binding="btnLecon">
+            <constraints/>
+            <properties>
+              <text value="S'inscrire à une leçon"/>
+            </properties>
+          </component>
+          <component id="fdd2b" class="javax.swing.JButton" binding="btnStats">
+            <constraints/>
+            <properties>
+              <text value="Statistiques"/>
+            </properties>
+          </component>
+          <component id="ddd85" class="javax.swing.JButton" binding="btnDeconnexion">
+            <constraints/>
+            <properties>
+              <text value="Se déconnecter"/>
+            </properties>
+          </component>
+        </children>
+      </toolbar>
+      <grid id="f4893" layout-manager="GridLayoutManager" row-count="7" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="2b30f" class="javax.swing.JLabel" binding="lblRecherche">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Rechercher par date"/>
+            </properties>
+          </component>
+          <scrollpane id="cf253">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="8dd55" class="javax.swing.JTable" binding="tblDates">
+                <constraints/>
+                <properties/>
+              </component>
+            </children>
+          </scrollpane>
+          <scrollpane id="d561e">
+            <constraints>
+              <grid row="1" column="1" row-span="6" col-span="2" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="25dcc" class="javax.swing.JTable" binding="tblInfo">
+                <constraints/>
+                <properties/>
+              </component>
+            </children>
+          </scrollpane>
+          <grid id="99af8" binding="pnlDate1" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <component id="d135e" class="javax.swing.JLabel" binding="lblDate1">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="De :"/>
+            </properties>
+          </component>
+          <component id="f8fc2" class="javax.swing.JLabel" binding="lblDate2">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="A :"/>
+            </properties>
+          </component>
+          <grid id="79bf" binding="pnlDate2" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <component id="25d0d" class="javax.swing.JButton" binding="btnRecherche">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Rechercher"/>
+            </properties>
+          </component>
+          <component id="f7792" class="javax.swing.JButton" binding="btnReset">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Reset"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="ae008" class="javax.swing.JLabel" binding="lblLecon">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Planning"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
